@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HVex.Transformer.Domain", "HVex.Transformer.Domain\HVex.Transformer.Domain.csproj", "{A2AF0509-EC5F-403F-9FE9-57B251FC9EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HVex.Transformer.Infra", "HVex.Transformer.Infra\HVex.Transformer.Infra.csproj", "{43545B8E-6908-4BF6-831C-9B83118C1F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HVex.Transformer.Application", "HVex.Transformer.Aplication\HVex.Transformer.Application.csproj", "{162F7E6C-3A6E-4EBE-89AB-98ABB4958366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HVex.Transformer.CrossCutting", "HVex.Transformer.CrossCutting\HVex.Transformer.CrossCutting.csproj", "{014B316C-BCFE-4583-AD86-8BED37E669DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HVex.Transformer.Api", "HVex.Transformer.Api\HVex.Transformer.Api.csproj", "{87079572-2299-460C-8300-C3089A5BFA4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2AF0509-EC5F-403F-9FE9-57B251FC9EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AF0509-EC5F-403F-9FE9-57B251FC9EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AF0509-EC5F-403F-9FE9-57B251FC9EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AF0509-EC5F-403F-9FE9-57B251FC9EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43545B8E-6908-4BF6-831C-9B83118C1F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43545B8E-6908-4BF6-831C-9B83118C1F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43545B8E-6908-4BF6-831C-9B83118C1F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43545B8E-6908-4BF6-831C-9B83118C1F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162F7E6C-3A6E-4EBE-89AB-98ABB4958366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162F7E6C-3A6E-4EBE-89AB-98ABB4958366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162F7E6C-3A6E-4EBE-89AB-98ABB4958366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162F7E6C-3A6E-4EBE-89AB-98ABB4958366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014B316C-BCFE-4583-AD86-8BED37E669DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014B316C-BCFE-4583-AD86-8BED37E669DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014B316C-BCFE-4583-AD86-8BED37E669DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014B316C-BCFE-4583-AD86-8BED37E669DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87079572-2299-460C-8300-C3089A5BFA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87079572-2299-460C-8300-C3089A5BFA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87079572-2299-460C-8300-C3089A5BFA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87079572-2299-460C-8300-C3089A5BFA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFC9D79A-CE81-447F-AD7D-549BA3F0A1A5}
+	EndGlobalSection
+EndGlobal
