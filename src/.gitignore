@@ -1,0 +1,11 @@
+.vs
+HVex.Transformer.Api/bin
+HVex.Transformer.Api/obj
+HVex.Transformer.Domain/bin
+HVex.Transformer.Domain/obj
+HVex.Transformer.CrossCutting/bin
+HVex.Transformer.CrossCutting/obj
+HVex.Transformer.Infra/bin
+HVex.Transformer.Infra/obj
+HVex.Transformer.Application/bin
+HVex.Transformer.Application/bin/obj
