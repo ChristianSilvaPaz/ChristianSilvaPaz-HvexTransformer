@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "HVex.Transformer.Api": {
+    "HVexTransformer.Api": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
