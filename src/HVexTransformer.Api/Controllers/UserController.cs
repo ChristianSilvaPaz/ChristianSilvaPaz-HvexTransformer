@@ -30,7 +30,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<UserResponseDTO>> AddUserAsync([FromBody] UserCreateDto userCreateDto)
+    public async Task<ActionResult<UserResponseDTO>> AddUserAsync([FromBody] UserCreateDTO userCreateDto)
     {
         var user = await _userService.AddUserAsync(userCreateDto);
         return Ok(user);

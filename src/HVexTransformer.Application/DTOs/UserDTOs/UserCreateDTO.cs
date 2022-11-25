@@ -2,7 +2,7 @@
 
 namespace HVexTransformer.Application.DTOs.UserDTOs;
 
-public class UserCreateDto
+public class UserCreateDTO
 {
     [Required(ErrorMessage = "O nome do usuário é obrigatório")]
     public string Name { get; set; }

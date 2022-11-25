@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using HVexTransformer.Application.DTOs.TransformerDTOs;
 using HVexTransformer.Application.DTOs.UserDTOs;
 using HVexTransformer.Domain.Entities;
 
@@ -9,5 +10,6 @@ public class DomainToDTOMappingProfile : Profile
     public DomainToDTOMappingProfile()
     {
         CreateMap<User, UserResponseDTO>();
+        CreateMap<Transformer, TransformerResponseDTO>();
     }
 }

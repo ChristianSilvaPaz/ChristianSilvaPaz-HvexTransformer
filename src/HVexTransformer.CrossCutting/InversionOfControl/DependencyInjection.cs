@@ -7,6 +7,7 @@ using HVexTransformer.Domain.Interfaces.Repositories;
 using HVexTransformer.Application.Mappings;
 using HVexTransformer.Application.Interfaces.Services;
 using HVexTransformer.Application.Services;
+using HVexTransformer.Infra.Data.Repositories;
 
 namespace HVexTransformer.CrossCutting.InversionOfControl;
 
@@ -29,8 +30,12 @@ public static class DependencyInjection
         });
 
         services.AddScoped<HVexDbContext>();
+
         services.AddScoped<IUserService, UserService>();
         services.AddScoped<IUserRepository, UserRepository>();
+
+        services.AddScoped<ITransformerService, TransformerService>();
+        services.AddScoped<ITransformerRepository, TransformerRepository>();
 
         services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 

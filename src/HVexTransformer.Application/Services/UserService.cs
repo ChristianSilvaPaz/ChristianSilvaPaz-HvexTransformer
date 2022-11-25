@@ -30,7 +30,7 @@ public class UserService : IUserService
         return _mapper.Map<UserResponseDTO>(user);
     }
 
-    public async Task<UserResponseDTO> AddUserAsync(UserCreateDto userCreateDTO)
+    public async Task<UserResponseDTO> AddUserAsync(UserCreateDTO userCreateDTO)
     {
         var userEntity = new User(userCreateDTO.Name, userCreateDTO.Email);
         await _userRepository.AddUserAsync(userEntity);
